@@ -60,7 +60,9 @@ const user = {
 user.age = 25;
 delete user['city of residence'];
 let info = prompt('Какую информацию хотите узнать о пользователе?');
-alert(user[info])*/
+alert(user[info])
 
 let userName = prompt('Как вас зовут?');
-alert('Привет,' + userName);
+alert('Привет,' + userName);*/
+
+
