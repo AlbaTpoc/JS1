@@ -166,6 +166,8 @@ number % 2 == 0 ? alert('Число четное') : alert('Число нече�
 // 	alert('123123')
 // }
 
+
+
 // let Hi = 0;
 // while (Hi < 2) {
 // 	console.log('Привет');
@@ -200,7 +202,7 @@ number % 2 == 0 ? alert('Число четное') : alert('Число нече�
 
 // for (let key in obj) {
 // 	alert(`${key} — зарплата ${obj[key]} dollars`)
-// }
+// };
 
 // let n = 1000;
 // let num = 0;
@@ -213,10 +215,122 @@ number % 2 == 0 ? alert('Число четное') : alert('Число нече�
 // console.log(n);
 // console.log('Iterated ' + num + ' times!')
 
-for (let dayNumber = 1; dayNumber <= 31; dayhNumber += 7) {
-	if (dayNumber == 5) {
-		console.log('Сегодня пятница, ...-е число. Необходимо подготовить отчет.');
-	} else if (dayNumber !== 5 && dayNumber <= 5 && dayNumber >= 31) {
-		console.log('Весна');
-	}
-}
+
+// for (let dayNumber = 1; dayNumber <= 31; dayhNumber += 7) {
+// 	if (dayNumber == 5) {
+// 		console.log('Сегодня пятница, ...-е число. Необходимо подготовить отчет.');
+// 	} else if (dayNumber !== 5 && dayNumber <= 5 && dayNumber >= 31) {
+// 		console.log('Весна');
+// 	}
+// }
+
+// Блок 2.5
+
+// Задание 1
+
+// function difference(a, b) {
+// 	if (a < b) {
+// 		return a;
+// 	} else {
+// 		return b;
+// 	}
+// }
+
+// let resylt = difference(3, 10);
+// console.log(resylt);
+
+// Задание 2
+
+// let n = prompt('Введите число')
+
+// function even( n ) {
+// 	if ( n % 2 == 0 ) {
+// 		return 'Число четное';
+// 	} else {
+// 		return 'Число нечетное';
+// 	}
+// }
+
+// let result = even( n )
+// console.log(result);
+
+// Задание 3
+
+// let a = prompt('Введите число для получения результата')
+
+// function squareNumber( a ) {
+// 	return a * 2;
+// }
+
+// let result = squareNumber( a );
+// console.log(result);
+
+// Задание 4
+
+// let age = prompt('Сколько вам лет?')
+
+// function ageHi( age ) {
+// 	if ( age < 0 ) {
+// 		alert('«Вы ввели неправильное значение»');
+// 	} else if ( age <= 12 ) {
+// 		alert('«Привет, друг!»');
+// 	}
+// 	else {
+// 		alert('«Добро пожаловать!»');
+// 	}
+// }
+
+// ageHi( age )
+
+// Задание 5
+
+// const isNumber = (a, b) => {
+// 	return !isNaN (a) && !isNaN (b) ? a * b : "одно или несколько значений не является числом";
+// 	}
+
+
+
+
+// Задание 6
+
+// let cube = (a, result) => {
+// 	a = Number(prompt('Введите число'));
+// 	if (!isNaN(a)) {
+// 		result = a ** 3;
+// 		return console.log(`Число ${a} в кубе равняется ${result}`);
+// 	} else {
+// 		console.log('Переданный параметр не является числом');
+// 	}
+// }
+
+// cube();
+
+
+// Задание 7 
+
+// function getCircleleArea() {
+// 	return this.radius ** 2 * 3.14;
+// }
+// function getCirclePerimeter() {
+// 	return this.radius * 2 * 3.14;
+// }
+
+// Circle1 = {
+// 	radius: 41,
+
+// 	getArea: getCircleleArea,
+// 	getPerimeter: getCirclePerimeter,
+// };
+
+// Circle2 = {
+// 	radius: 37,
+
+// 	getArea: getCircleleArea,
+// 	getPerimeter: getCirclePerimeter,
+// };
+
+// console.log(Circle1.getArea());
+// console.log(Circle1.getPerimeter());
+// console.log(Circle2.getArea());
+// console.log(Circle2.getPerimeter());
+
